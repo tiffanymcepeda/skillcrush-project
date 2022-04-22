@@ -1,0 +1,277 @@
+/***** BASE STYLES *****/
+body {
+    color: #2b2b2b;
+    font-family:'Source Sans Pro', sans-serif;
+}
+
+
+/***** GRID *****/
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+
+.half-width { 
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+
+
+.container-fluid {
+    color: #bbc085;
+    border: 1px solid #9b9b9b;
+    border-left-style: none;
+    border-right-style: none;
+    background-color: #ebebeb;
+    display: inline-block;
+    font-family: Lora;
+    font-size: 30px;
+    height: 300px;
+    padding-top: 80px;
+    padding-left: 143px;
+    margin: 0 auto;
+    overflow: 0 auto;
+    vertical-align: middle;
+    width: 1281px; 
+}
+
+
+
+.promo-item h3 {
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Lora;
+    color: #bbc085;
+}
+
+
+
+
+
+/***** HEADER *****/
+header {
+    background: url('../img/full-background.png');
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+}
+
+header h1 {
+    color: #bbc085;
+    padding: 65px 0 65px 25px;
+}
+
+nav{ 
+    float: right;
+    padding: 75px 25px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #c1c0c0;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 80px;
+}
+
+header h2 {
+    color: #9b9b9b;
+    clear:both;
+    font-family: Lora;
+    font-size: 72px;
+    line-height: default;
+    padding: 20px 0 20px 25px;
+    width: 65px 0 65px 25px;
+}
+
+header h2 span {
+    color: #2b2b2b; 
+}
+
+
+
+/***** ABOUT CSS *****/
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: Lora;
+    font-size: 30px;
+    padding-left: 0px;
+}
+
+/***** WORK SECTION *****/
+#work {
+    background-color: #f9ceb7;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-size: 30px
+    line-height: default;
+    margin: 0 auto;
+    width: 400px
+}
+
+#work p {
+    font-family: Lora
+    font-size: 30px
+    line-height: default;
+    padding: 0 50px;
+}
+
+/***** CONTACT *****/
+#contact {
+    background-color: #ebebeb;
+    list-style: none;
+}
+
+#contact .full-width {
+    padding: 110px;
+}
+
+#contact img#contact-img {
+    border: 12px solid #ffffff;
+    margin-left: 25px;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul{
+    padding-left: 115px;
+    
+}
+
+#contact h2 {
+    font-family: Lora,
+    font-size: 36px;
+    line-height: default;
+}
+
+#contact #email-header {
+    font-size: 32px;
+    font-weight: lighter;
+    line-height: default;
+    margin: -30px 0 5px 0;
+}
+
+#contact #socialmedia-header {
+    font-size: 29px;
+    font-weight: bold;
+    line-height: default;
+    margin: 40px 0 0 0;
+}
+
+
+#contact a {
+    color: #c99e88;
+    font-size: 29px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 48px;
+}
+
+
+
+
+/***** FOOTER *****/
+.full-width h1 {
+    font-family: Lora;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+
+.full-width h3 {
+    color: #c99e88;
+    font-family: lora;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+.full-width p {
+    border:1px #9b9b9b;
+    border-left-style: none;
+    border-right-style: none;
+    color: #9b9b9b;
+    font-family: lora;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.half-width ul {
+    color: #c99e88;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    padding-bottom: 30px;
+}
+
+
+
+
+.half-width ul li {
+    font-family: Lora;
+    font-size: 16px;
+    line-height: 50px;
+    margin-left: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
